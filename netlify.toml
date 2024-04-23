@@ -1,4 +1,4 @@
 [build]
-  ignore = "yarn --version && npx nx-ignore marketing --verbose --slim-install"
+  ignore = "yarn exec nx-ignore marketing --verbose --slim-install"
   NETLIFY_NEXT_PLUGIN_SKIP = true
   NETLIFY_USE_YARN = true
