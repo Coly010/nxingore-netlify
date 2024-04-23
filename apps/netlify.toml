@@ -1,0 +1,3 @@
+[build]
+  ignore = "npx nx-ignore marketing --verbose --slim-install"
+  NETLIFY_NEXT_PLUGIN_SKIP = true
